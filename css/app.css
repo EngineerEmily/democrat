@@ -61,3 +61,32 @@
   color: #fefefe;
   font-weight: bold;
 }
+figure {
+	opacity: 1;
+    filter: alpha(opacity=100);
+	}
+
+figcaption {
+	font-family: 'Verdana', sans-serif;
+	}
+@media (max-width:641px) {
+	figure {
+	width: 80%;
+	}
+}
+@media (min-width:641px) {
+	aside {
+		display: none;
+		visibility: hidden;
+	}
+	figure {
+		width: 45%;
+		float: right;
+	}
+		.logoimg {
+	max-width: 200px;
+	}
+}
+h1 {
+  text-shadow: 2px 2px 8px #000000;
+}
