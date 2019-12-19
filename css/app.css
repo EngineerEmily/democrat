@@ -119,3 +119,35 @@ h1 {
   color: #4a4a4a;
   transition: color 0.3s ease-in;
 }
+
+.menu > li > a img,
+.menu > li > a i,
+.menu > li > a svg {
+  margin-right: 0.25rem;
+}
+
+.menu.simple li {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1;
+}
+
+.menu.simple a {
+  padding: 0;
+}
+
+.menu.simple li {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+.menu.simple.align-right li {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.menu.align-right {
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
