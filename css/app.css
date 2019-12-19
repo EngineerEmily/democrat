@@ -67,7 +67,7 @@ figure {
 	}
 
 figcaption {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Verdana', sans-serif;
 	}
 @media (max-width:641px) {
 	figure {
@@ -86,4 +86,7 @@ figcaption {
 		.logoimg {
 	max-width: 200px;
 	}
+}
+h1 {
+  text-shadow: 2px 2px 8px #000000;
 }
