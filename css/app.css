@@ -64,11 +64,12 @@
 figure {
 	opacity: 1;
     filter: alpha(opacity=100);
+	padding: 15px 15px 15px 15px;
 	}
 
 figcaption {
-	font-family: 'Verdana', sans-serif;
 	}
+
 @media (max-width:641px) {
 	figure {
 	width: 80%;
@@ -80,7 +81,7 @@ figcaption {
 		visibility: hidden;
 	}
 	figure {
-		width: 45%;
+		width: 35%;
 		float: right;
 	}
 		.logoimg {
@@ -89,4 +90,32 @@ figcaption {
 }
 h1 {
   text-shadow: 2px 2px 8px #000000;
+}
+
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
 }
